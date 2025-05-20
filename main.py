@@ -18,4 +18,4 @@ if __name__ == "__main__":
     threading.Thread(target=start_delete_listener, daemon=True).start()
 
     # Start REST API
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=8080)
